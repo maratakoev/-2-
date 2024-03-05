@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles/styles.css">
+	<script defer src="./index.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Playfair:opsz,wght@5..1200,300;5..1200,400;5..1200,500;5..1200,600;5..1200,700;5..1200,900&display=swap"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap" rel="stylesheet">
+	<title>Вкус Осетии</title>
+</head>
+
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="header-line">
+				<button class="header__burger-btn" id="burger">
+					<span></span><span></span><span></span>
+				</button>
+				<div class="header-logo">
+					<img class="logo" src="./images/png/Logo_e2.png" alt="logo">
+				</div>
+				<nav class="nav">
+
+					<a class="nav-item" href="#two">Проживание</a>
+					<a class="nav-item" href="#one">Маршруты</a>
+					<a class="nav-item" href="#content-three">О нас</a>
+					<a class="nav-item" href="#footer">Контакты</a>
+
+
+				</nav>
+				<div class="phone">
+					<div class="phone-holder">
+						<div class="phone-image">
+							<!-- <a href=""><img class="header-phone-img" src="../Вкус Осетии/images/png/phone_logo.png" -->
+							<!-- alt="phone-image"> </a> -->
+						</div>
+						<div class="number num">
+							<!-- <a class="num" href="#"> -->
+							+7 988 835 72 27
+							<!-- </a> -->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="header-down">
+
+
+
+				<div class="header-down-text">
+					<div class="header-subtitle">
+						ПОЧУВСТВУЙ ВКУС ОСЕТИИ
+					</div>
+
+					<div class="header-title">
+						Туры, Экскурсии и Проживание
+						В Осетии
+					</div>
+					<div class="header-down-text-white">
+						листать вниз
+						<img class="arrow-but" src="./images/png/arrow_but.png">
+					</div>
+					<div class="url">
+						Подписаться
+						<a href="http://www.youtube.com/@marat_akoev_travel"><img class="you-tube"
+								src="./images/png/ytb.png"></a>
+						<a href="https://t.me/Ossetian_taste"><img class="tg" src="./images/png/tg.png"></a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content-background ">
+		<div class="container">
+
+			<div class="content-one">
+				<div class="content-one-text">
+					<div class="one" id="one">
+						01
+					</div>
+					<div class="content-subtitle">
+						МАРШРУТЫ
+					</div>
+					<div class="content-title">
+						Куда поехать <br>
+						На экскурсию?
+					</div>
+					<div class="content-discription">
+						В Осетии Вас ждут водопады, ледники,<br>
+						вершины перевалов, средневековая архитектура <br>
+						и конечно гостеприимная атмосфера!<br>
+						Выбрать экскурсию вы можете самостоятельно нажав кнопку "Подробнее",
+						Либо озвучить нам свои пожелания<br> и мы подберем оптимальный вариант
+						для этого нажмите "Заказать"
+					</div>
+				</div>
+
+				<div class="content-one-buttons">
+					<a href="#popup">
+						<button class="button-first">
+							Подробнее
+						</button>
+					</a>
+					<a href="https://t.me/MaratAkoev">
+						<button class="button-second">
+							Заказать
+						</button>
+					</a>
+				</div>
+
+				<div class="content-one-img">
+					<img class="content-one-img" src="./images/one_img.png" alt="Slide 1">
+				</div>
+			</div>
+
+
+
+
+			<!-- popup one -->
+			<div id="popup" class="popup">
+				<a href="#one" class="popup__area"></a>
+				<div class="popup__body">
+					<div class="popup__content">
+						<a href="#one" class="popup__close"> <img class="close-img" src="./images/png/close.jpg"
+								alt="close"></a>
+						<div class="popup__title"> Экскурсия<br> "Крепости и Вершины"</div>
+						<div class="popup__text">
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/time.png"> ВРЕМЯ В ПУТИ: <span class="popup__bold">
+									5 - 6 часов</span>
+							</div>
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/distance.png"> РАССТОЯНИЕ: <span
+									class="popup__bold"> 100км</span>
+							</div>
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/star.png"> СЛОЖНОСТЬ: <span class="popup__bold">
+									средняя</span>
+							</div>
+						</div>
+						<!-- <button class="popup__button-one">
+							Заказать
+						</button> -->
+
+						<div class="popup__route popup__bold"> МАРШРУТ <img class="route__img" src="./images/png/route.png"
+								alt="route">
+						</div>
+						<div class="route__pos">
+							<span>Каньон-Крепость-Монастырь-<br>
+								-Смотровая-буква-некрополь-<br>
+								-смотровая-место съемок Бодрова
+							</span>
+						</div>
+
+						<div id="slider-container_1" class="slider-container-1">
+							<div class=" slider">
+								<div class="slider__line">
+									<img class="slider__img" src="./images/slide_1.jpg" alt="Slide 1">
+									<img class="slider__img" src="./images/slide_3.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_2.jpg" alt="Slide 2">
+									<img class="slider__img" src="./images/slide_4.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_5.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_6.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_7.jpg" alt="Slide 3">
+								</div>
+							</div>
+
+							<div class="slider__buttons">
+								<a class="slider__btn-prev">
+									<img class="slider__btnleft" src="./images/png/arrow_left_30px.png" alt="left">
+								</a>
+								<div class="slider__dot active__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<a class="slider__btn-next">
+									<img class="slider__btnright" src="./images/png/arrow_right_30px.png" alt="right">
+								</a>
+							</div>
+						</div>
+
+						<div class="popup__discription-title">Что посмотрим на маршруте? </div>
+
+						<div class="popup__discription">
+							Начнем с Кадаргаванского каньона и арт-объекта Зеркальный барс, заглянем внутрь наскальной
+							крепости (XIIV в.), посетим Аланский мужской монастырь,
+							увидим поселок Верхний Фиагдон с большой высоты, далее арт-объект Буква на вершине
+							Какадурского
+							перевала
+							спустимся в Мидаграбиескую долину, где нас ждет самый высокий в Европе водопад Зейгалан,
+							после
+							этого
+							посетим самый крупный на Кавказе Даргавский некрополь, и в завершении маршрута печально
+							известное
+							Кармадонское ущелье.
+						</div>
+						<div class="popup__title"> Экскурсия<br> "Каменные стражи"</div>
+						<div class="popup__text">
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/time.png"> ВРЕМЯ В ПУТИ: <span class="popup__bold">
+									6-7 часов</span>
+							</div>
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/distance.png"> РАССТОЯНИЕ: <span
+									class="popup__bold">
+									200км</span>
+							</div>
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/star.png"> СЛОЖНОСТЬ: <span class="popup__bold">
+									легкая</span>
+							</div>
+						</div>
+						<div class="popup__route popup__bold"> МАРШРУТ <img class="route__img" src="./images/png/route.png"
+								alt="route">
+						</div>
+						<div class="route__pos">
+							<span>Уастырджи-Водопад-Канатка-<br>
+								-Ледник-Арт объект-Источник-<br>
+								-Средневековый город
+							</span>
+						</div>
+
+						<div id="slider-container_2">
+							<div class=" slider">
+								<div class="slider__line">
+									<img class="slider__img" src="./images/slide_2-2.png" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_3-2.jpg" alt="Slide 2">
+									<img class="slider__img" src="./images/slide_1-2.jpg" alt="Slide 1">
+									<img class="slider__img" src="./images/slide_4-2.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_5-2.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_6-2.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_7-2.jpg" alt="Slide 3">
+								</div>
+							</div>
+							<div class="slider__buttons">
+								<a class="slider__btn-prev">
+									<img class="slider__btnleft" src="./images/png/arrow_left_30px.png" alt="left">
+								</a>
+								<div class="slider__dot active__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<a class="slider__btn-next">
+									<img class="slider__btnright" src="./images/png/arrow_right_30px.png" alt="right">
+								</a>
+							</div>
+						</div>
+						<div class="popup__discription-title">Что посмотрим на маршруте? </div>
+
+						<div class="popup__discription">
+							Заезжаем в Алагирское ущелье, где нас встречает наскальная скульптура покровителя мужчин,
+							путников и воинов – Уастырджи. Масштабы скульптуры впечатляют: ее вес составляет 28 тонн,
+							высота его головы коня – целых 6 метров! На сегодня это самый большой конный памятник в мире.
+							Дальше нас ждут шахтерские поселки и самый интересный из них некогда процветающий, построенный
+							европейскими архитекторами - Садон, его рудник был одним из крупнейших в СССР по добычи свинца,
+							а сегодня он напоминает декрации к фильму ужасов и известнен как город призрак.
+							После этого мы поднимаемся на вершину перевала 2500 метров и перед нами открываются
+							невероятные виды и пейзажи! Несколько смотровых площадок и мы попадаем в Дигорию,
+							тут проходил шелковый путь, посмотрим что он оставил после себя. Далее дом музей с предметами
+							быта средневековой Алании и в завершении впечатляющей красоты каньон который никого не оставит
+							равнодушным!
+						</div>
+						<div class="popup__title"> Экскурсия<br> "Красота на высоте"</div>
+						<div class="popup__text">
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/time.png"> ВРЕМЯ В ПУТИ: <span class="popup__bold">
+									4 - 5 часов</span>
+							</div>
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/distance.png"> РАССТОЯНИЕ: <span
+									class="popup__bold"> 100км</span>
+							</div>
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/star.png"> СЛОЖНОСТЬ: <span class="popup__bold">
+									средняя</span>
+							</div>
+						</div>
+						<div class="popup__route popup__bold"> МАРШРУТ <img class="route__img" src="./images/png/route.png"
+								alt="route">
+						</div>
+						<div class="route__pos">
+							<span>Каньон-Крепость-Монастырь-<br>
+								-Лавочка-Смотровая-Башни-<br>
+								-Наскальная крепость
+							</span>
+						</div>
+						<div id="slider-container_3">
+							<div class=" slider">
+								<div class="slider__line">
+									<img class="slider__img" src="./images/slide_1-3.jpg" alt="Slide 1">
+									<img class="slider__img" src="./images/slide_2-3.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_3-3.jpg" alt="Slide 2">
+									<img class="slider__img" src="./images/slide_4-3.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_5-3.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_6-3.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_7-3.jpg" alt="Slide 3">
+								</div>
+							</div>
+
+							<div class="slider__buttons">
+								<a class="slider__btn-prev">
+									<img class="slider__btnleft" src="./images/png/arrow_left_30px.png" alt="left">
+								</a>
+								<div class="slider__dot active__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<a class="slider__btn-next">
+									<img class="slider__btnright" src="./images/png/arrow_right_30px.png" alt="right">
+								</a>
+							</div>
+						</div>
+
+						<div class="popup__discription-title">Что посмотрим на маршруте? </div>
+
+						<div class="popup__discription">
+
+							Это направление подходит тем кто хочет не утомиться в пути и при этом увидеть
+							горы с самого выигрышного ракурса и конечно сделать классные фото для соц сетей!
+							Мы увидим наскальные крепости, башни, альпийские луга, склепы, долины смотровую площадку
+							на высоте 2600 метров а также скульптура мужского покровителя - Уастырджи, высеченную из скалы.
+							Очень важную роль играет погода, потому что в дождь снег эти места
+							становятся слишком опасными для посещения а в облачную погоду не видно красоты ради которой мы так
+							высоко поднялись.
+
+						</div>
+						<div class="popup__title"> Экскурсия<br> "Высоко и красиво"</div>
+						<div class="popup__text">
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/time.png"> ВРЕМЯ В ПУТИ: <span class="popup__bold">
+									7 - 9 часов</span>
+							</div>
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/distance.png"> РАССТОЯНИЕ: <span
+									class="popup__bold"> 200км</span>
+							</div>
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/star.png"> СЛОЖНОСТЬ: <span class="popup__bold">
+									средняя</span>
+							</div>
+						</div>
+						<div class="popup__route popup__bold"> МАРШРУТ <img class="route__img" src="./images/png/route.png"
+								alt="route">
+						</div>
+						<div class="route__pos">
+							<span>Уастырджи-Шахтерский поселок-<br>
+								-Перевал-Смотровая-Руины древности<br>
+								-Дом музей
+							</span>
+						</div>
+						<div id="slider-container_4">
+							<div class=" slider">
+								<div class="slider__line">
+									<img class="slider__img" src="./images/slide_1-4.jpg" alt="Slide 1">
+									<img class="slider__img" src="./images/slide_2-4.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_3-4.jpg" alt="Slide 2">
+									<img class="slider__img" src="./images/slide_4-4.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_5-4.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_6-4.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_7-4.jpg" alt="Slide 3">
+								</div>
+							</div>
+
+							<div class="slider__buttons">
+								<a class="slider__btn-prev">
+									<img class="slider__btnleft" src="./images/png/arrow_left_30px.png" alt="left">
+								</a>
+								<div class="slider__dot active__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<a class="slider__btn-next">
+									<img class="slider__btnright" src="./images/png/arrow_right_30px.png" alt="right">
+								</a>
+							</div>
+						</div>
+
+						<div class="popup__discription-title">Что посмотрим на маршруте? </div>
+
+						<div class="popup__discription">
+							Заезжаем в Алагирское ущелье, где нас встречает наскальная скульптура покровителя мужчин,
+							путников и воинов – Уастырджи. Масштабы скульптуры впечатляют: ее вес составляет 28 тонн,
+							высота его головы коня – целых 6 метров! На сегодня это самый большой конный памятник в мире.
+							Дальше нас ждут шахтерские поселки и самый интересный из них некогда процветающий, построенный
+							европейскими архитекторами - Садон, его рудник был одним из крупнейших в СССР по добычи свинца,
+							а сегодня он напоминает декрации к фильму ужасов и известнен как город призрак.
+							После этого мы поднимаемся на вершину перевала 2500 метров и перед нами открываются
+							невероятные виды и пейзажи! Несколько смотровых площадок и мы попадаем в Дигорию,
+							тут проходил шелковый путь, посмотрим что он оставил после себя. Далее дом музей с предметами
+							быта средневековой Алании и в завершении впечатляющей красоты каньон который никого не оставит
+							равнодушным!
+						</div>
+						<div class="popup__title"> Экскурсия<br> "Крепости и Вершины"</div>
+						<div class="popup__text">
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/time.png"> ВРЕМЯ В ПУТИ: <span class="popup__bold">
+									7 - 9 часов</span>
+							</div>
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/distance.png"> РАССТОЯНИЕ: <span
+									class="popup__bold"> 300км</span>
+							</div>
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/star.png"> СЛОЖНОСТЬ: <span class="popup__bold">
+									средняя</span>
+							</div>
+						</div>
+						<div class="popup__route popup__bold"> МАРШРУТ <img class="route__img" src="./images/png/route.png"
+								alt="route">
+						</div>
+						<div class="route__pos">
+							<span>Каньон-Дом музей-<br>
+								-Нарт Сослан-Жемчужина-<br>
+								-Фрегат
+							</span>
+						</div>
+						<div id="slider-container_5">
+							<div class=" slider">
+								<div class="slider__line">
+									<img class="slider__img" src="./images/slide_1-5.jpg" alt="Slide 1">
+									<img class="slider__img" src="./images/slide_2-5.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_3-5.jpg" alt="Slide 2">
+									<img class="slider__img" src="./images/slide_4-5.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_5-5.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_6-5.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/slide_7-5.jpg" alt="Slide 3">
+								</div>
+							</div>
+
+							<div class="slider__buttons">
+								<a class="slider__btn-prev">
+									<img class="slider__btnleft" src="./images/png/arrow_left_30px.png" alt="left">
+								</a>
+								<div class="slider__dot active__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<a class="slider__btn-next">
+									<img class="slider__btnright" src="./images/png/arrow_right_30px.png" alt="right">
+								</a>
+							</div>
+						</div>
+
+						<div class="popup__discription-title">Что посмотрим на маршруте? </div>
+
+						<div class="popup__discription">
+							Каньон Ахсинта в народе "Чертов мост", глубиной более 80м, неприметный с дороги
+							но очень впечатляющий никого будет нашей первой остановкой.
+							После этого посетим дом музей в котором воссоздан интерьер средвековой Аланской хижины.
+							Увидим арт-объект стрелы Нарта Сослана и склеп Нарта Сослана.
+							Ну а далее нас ждет хвойная часть Дигории и водопад Жемчужина
+							Эти места по праву считаются самыми красивыми для многих местных жителей и гостей республики.
+						</div>
+						<!-- <a href="#start">
+							<button class="button-second-two">
+								К началу
+							</button>
+						</a> -->
+
+					</div>
+				</div>
+			</div>
+			<!-- popup end -->
+			<div class="content-two">
+				<div class="content-two-img-block">
+					<img class="content-two-img" src="./images/living_1.jpeg">
+				</div>
+				<div class="content-two-text">
+					<div class="two" id="two">
+						02
+					</div>
+					<div class="content-subtitle">
+						ПРОЖИВАНИЕ
+					</div>
+					<div class="content-title">
+						Где остановиться <br>
+						В Осетии?
+					</div>
+					<div class="content-discription">
+						Мы предлагаем размещение в горах
+						республики с неповторимым живописным видом за окном!<br>
+						Можно так же остановиться во Владикавказе в тихом
+						районе недалеко от исторического центра города в уютной квартире.<br>
+						У нас всегда чисто, красиво и удобно!
+					</div>
+
+
+				</div>
+				<div class="button-second-two-pos">
+					<a href="https://t.me/MaratAkoev">
+						<button class="button-first-two">
+							Забронировать
+						</button>
+					</a>
+					<a href="#popup__two">
+						<button class="button-second-two">
+							Подробнее
+						</button>
+					</a>
+				</div>
+			</div>
+
+			<div id="popup__two" class="popup__two">
+				<a href="#two" class="popup__area-two"></a>
+				<div class="popup__body-two">
+					<div class="popup__content-two">
+						<a href="#two" class="popup__close-two"> <img class="close-img" src="./images/png/close.jpg"
+								alt="close"></a>
+
+
+						<div class="popup__title">Коттедж<br>
+							В Верхнем Фиагдоне
+						</div>
+						<div class="popup__text">
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/people.png"> ВМЕСТИМОСТЬ: <span class="popup__bold">
+									до 4 человек</span>
+							</div>
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/rooms.png"> КОЛИЧЕСТВО КОМНАТ: <span
+									class="popup__bold"> 1 </span>
+							</div>
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/house.png"> ПЛОЩАДЬ: <span class="popup__bold">
+									49квм</span>
+							</div>
+						</div>
+						<div class="popup__route popup__bold popup__route-two"> УДОБСТВА <img class="route__img"
+								src="./images/png/comfort.png" alt="route">
+						</div>
+						<div class="route__pos">
+							<span>Двуспальная кровать-Микроволновка<br>
+								-Зубные щетки и паста-Полотенца-<br>
+								-Фен-Стиралка-Кондиционер
+							</span>
+						</div>
+						<div id="slider-container_6">
+
+
+
+							<div class=" slider">
+								<div class="slider__line">
+									<img class="slider__img" src="./images/house_slide_1.jpg" alt="Slide 1">
+									<img class="slider__img" src="./images/house_slide_2.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/house_slide_3.jpg" alt="Slide 2">
+									<img class="slider__img" src="./images/house_slide_4.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/house_slide_5.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/house_slide_6.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/house_slide_7.jpg" alt="Slide 3">
+								</div>
+							</div>
+
+							<div class="slider__buttons">
+								<a class="slider__btn-prev">
+									<img class="slider__btnleft" src="./images/png/arrow_left_30px.png" alt="left">
+								</a>
+								<div class="slider__dot active__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<a class="slider__btn-next">
+									<img class="slider__btnright" src="./images/png/arrow_right_30px.png" alt="right">
+								</a>
+							</div>
+						</div>
+						<div class="popup__discription-title">Краткое описание </div>
+
+						<div class="popup__discription">
+							Коттедж привлекателен видами из окна на поселок Фиагдон и его горную панораму!
+							Мы находимся в поселке Цимити рядом с Верхним Фиагдоном,
+							гостям республики будет интересно прогуляться пешком до руин крупного
+							средневекового города,
+							а немного выше находится второй по величине некрополь республики.
+							Так же от нас берет начало трекинговый маршрут на вершину горы Хъариу
+							Наш коттедж обладает всеми удобствами.
+							Мы предлагаем бесконтактное заселение, парковочное место,<br>
+							Расчетное время 12:00
+						</div>
+
+
+						<div class="popup__title">Квартира<br>
+							Во Владикавказе
+						</div>
+						<div class="popup__text">
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/people.png"> ВМЕСТИМОСТЬ: <span class="popup__bold">
+									до 4 чел.</span>
+							</div>
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/rooms.png"> КОЛИЧЕСТВО КОМНАТ: <span
+									class="popup__bold"> 1</span>
+							</div>
+							<div class="popup__icons-line">
+								<img class="popup__icons" src="./images/png/house.png"> ПЛОЩАДЬ: <span class="popup__bold">
+									38 квм</span>
+							</div>
+						</div>
+						<div class="popup__route popup__bold popup__route-two"> УДОБСТВА <img class="route__img"
+								src="./images/png/comfort.png" alt="route">
+						</div>
+						<div class="route__pos">
+							<span>Двуспальная кровать-Микроволновка<br>
+								-Зубные щетки и паста-Полотенца-<br>
+								-Фен-Стиралка-Кондиционер
+							</span>
+						</div>
+						<div id="slider-container_7">
+
+							<div class=" slider">
+								<div class="slider__line">
+									<img class="slider__img" src="./images/flat_slide_1.jpg" alt="Slide 1">
+									<img class="slider__img" src="./images/flat_slide_2.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/flat_slide_3.jpg" alt="Slide 2">
+									<img class="slider__img" src="./images/flat_slide_4.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/flat_slide_5.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/flat_slide_6.jpg" alt="Slide 3">
+									<img class="slider__img" src="./images/flat_slide_7.jpg" alt="Slide 3">
+								</div>
+							</div>
+
+							<div class="slider__buttons">
+								<a class="slider__btn-prev">
+									<img class="slider__btnleft" src="./images/png/arrow_left_30px.png" alt="left">
+								</a>
+								<div class="slider__dot active__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<div class="slider__dot"></div>
+								<a class="slider__btn-next">
+									<img class="slider__btnright" src="./images/png/arrow_right_30px.png" alt="right">
+								</a>
+							</div>
+						</div>
+						<div class="popup__discription-title">Краткое описание</div>
+
+						<div class="popup__discription">
+							Новая очень чистая уютная квартира во Владикавказе.
+							Тихий спальный район удобное месторасположение
+							5 мин на авто до парка Дендрарий, до парка Нартон.
+							5 мин езды до набережной реки Терек.
+							До гор можно доехать за 10 мин.
+							Исторический центр города тоже находится недалеко 10 мин на автомобиле.
+							Все удобства также в вашем распоряжении: стиральная машина, фен, средства гигиены,
+							холодильник, духовка, печка, микроволновка, холодильник.
+							Очень удобная кровать шириной 180см
+							Заселение у нас тоже очень удобное, бесконтактное.
+							Расчетное время 12:00
+
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- popup end -->
+	</div>
+
+	<div class="content-three" id="content-three">
+
+		<div class="content-three-text">
+			<div class="two" id="two">
+				03
+			</div>
+			<div class="content-subtitle">
+				О НАС
+			</div>
+			<div class="content-title">
+				А кто все организует? <br>
+
+			</div>
+			<div class="content-discription">
+				Здравствуйте! Меня зовут Марат!<br>
+				Вот уже 12 лет регулярно выезжаю в горы за красивыми фото
+				и конечно изучаю места которые фотографию.
+				За это время желающих посетить запечатленные
+				локации стало так много, что я начал показывать их в
+				качестве гида на своем верном Toyota Land Cruiser 100.
+				На сегодняшний день за спиной уже более тысячи довольных
+				гостей и вы тоже можете присоединиться к их числу!
+				Чуть ниже указаны контакты для связи а также ссылки
+				на социальные сети где регулярно публикую
+				материалы с экскурсий.
+				Звоните, пишите, подписывайтесь!
+			</div>
+
+		</div>
+
+		<div>
+			<img class="content-three-img" src="./images/me.jpg">
+		</div>
+
+
+		<!-- статик кнопки ниже  расположены в третем блоке почему то только в нем работают норм-->
+		<div class="message__me">
+			<a href="https://t.me/MaratAkoev">
+				<img class="message__me-img" src="./images/png/message_me.png">
+			</a>
+		</div>
+
+		<div class="call__me">
+			<a href="tel:+7 (988) 835 72 27">
+				<img class="call__me-img" src="./images/png/call_me.png">
+			</a>
+		</div>
+		<!-- статик кнопки выше-->
+
+	</div>
+
+	<!-- popup two -->
+
+
+	</div>
+	</div>
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer-contacts">
+				<div class="footer-chat">
+					Начать чат
+					<a href="https://wa.me/+79888357227">
+						<img class="footer-wa-img" src="./images/png/wa.png">
+					</a>
+
+					<a href="https://t.me/MaratAkoev">
+						<img class="footer-tg-img" src="./images/png/tg.png">
+					</a>
+				</div>
+
+				<div class="footer-chanel">
+					Посетить страницу
+					<a href="http://www.youtube.com/@marat_akoev_travel">
+						<img class="footer-you-tube-img" src="./images/png/ytb.png">
+					</a>
+
+					<a href="https://t.me/Ossetian_taste">
+						<img class="footer-tg-chanel-img" src="./images/png/tg.png">
+					</a>
+				</div>
+			</div>
+			<div class="footer-mat">
+				Marat_Akoev_travel<br>
+				2020
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>
